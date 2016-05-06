@@ -23,4 +23,10 @@ public class ClientTest {
     assertEquals(true, myClient instanceof Client);
   }
 
+  @Test
+  public void getName_clientInstantiatesWithName_String() {
+    Client myClient = new Client("Jane Doe");
+    assertEquals("Jane Doe", myClient.getName());
+}
+
 }
