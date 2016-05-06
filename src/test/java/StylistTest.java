@@ -31,4 +31,9 @@ public class StylistTest {
     assertEquals("Clara", myStylist.getName());
   }
 
+  @Test
+  public void all_emptyAtFirst() {
+    assertEquals(0, Stylist.all().size());
+  }
+
 }
