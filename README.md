@@ -10,7 +10,7 @@ _A web app designed with Java that makes use of objects within objects and stori
 
 ##Database Tables
 
-![Database](ashleyraymaceli.github.com/hair-salon/sqldesign.png "Database tables made in SQL Designer")
+![Database](sqldesign.png)
 
 ## Setup/Installation Requirements
 
