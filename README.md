@@ -8,6 +8,10 @@
 
 _A web app designed with Java that makes use of objects within objects and storing them into a database. Spark/Velocity is used for the framework. Designed as a princess themed hair salon. The user can add stylists and clients for each stylist (Some stylists and clients pre-seeded in the database). BDD testing was possible with the use of Gradle and JUnit. Integration testing was possible with the use of FluentLenium. Databases stored with SQL._
 
+##Database Tables
+
+![Database](../sqldesign.png "Database tables made in SQL Designer")
+
 ## Setup/Installation Requirements
 
 * _SETTING UP THE DATABASE AND TEST DATABASE_
@@ -18,7 +22,6 @@ _A web app designed with Java that makes use of objects within objects and stori
 * _In a new console window run the command 'psql' then 'CREATE DATABASE hair_salon_am;'_
 * _For test database run the command '\c hair_salon_am' to connect to the database_
 * _To create the test database run the command 'CREATE DATABASE hair_salon_am_test WITH TEMPLATE hair_salon_am;'_
-
 * _RUNNING THE WEB APP_
 * _In console run the command 'gradle run'_
 * _Go to http://localhost:4567/_
