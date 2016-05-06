@@ -50,4 +50,11 @@ public class StylistTest {
     assertTrue(Stylist.all().get(0).equals(myStylist));
   }
 
+  @Test
+  public void save_savesIntoDatabase_true() {
+    Stylist myStylist = new Stylist("Rory");
+    myStylist.save();
+    Stylist savedStylist = Stylist.all().get(0);
+  }
+
 }
