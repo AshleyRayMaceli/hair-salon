@@ -2,7 +2,7 @@ import org.sql2o.*;
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class TaskTest {
+public class ClientTest {
 
   @Before
   public void setUp() {
@@ -15,6 +15,12 @@ public class TaskTest {
       String sql = "DELETE FROM clients *;";
       con.createQuery(sql).executeUpdate();
     }
+  }
+
+  @Test
+  public void Client_instantiatesCorrectly_true() {
+    Client myClient = new Client("Jane Doe");
+    assertEquals(true, myClient instanceof Client);
   }
 
 }
