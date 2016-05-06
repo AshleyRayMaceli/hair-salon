@@ -2,6 +2,13 @@
 
 <h2>Clients:</h2>
 
+#if($clients.size() > 0)
 #foreach($client in $stylist.getClients())
   <p>$client.getName()</p>
 #end
+
+#else
+  <h2>No clients for $stylist.getName() at this time</h2>
+#end
+
+<a href="/" class="btn btn-warning">Back To Homepage</a>
