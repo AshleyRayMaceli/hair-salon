@@ -1,6 +1,7 @@
-<h1>Hair Salon</h1>
+<h1 class="title">Princess Hair Salon</h1>
 
 #if($stylists.size() > 0)
+<h1>Our Royal Stylists</h1>
 #foreach ($stylist in $stylists)
   <p><a href="/stylist/$stylist.getId()">$stylist.getName()</a></p>
 #end
@@ -12,9 +13,9 @@
 <h2>Add a Stylist</h2>
 <form action="/" method="post">
   <label for="name">Stylist Name</label>
-  <input id="name" name="name" type="text">
+  <input id="name" name="name" type="text" required>
 
   <div>
-    <button type="submit" class="btn btn-info">Add Stylist</button>
+    <button type="submit" class="btn">Add Stylist</button>
   </div>
 </form>
