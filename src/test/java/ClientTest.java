@@ -27,6 +27,11 @@ public class ClientTest {
   public void getName_clientInstantiatesWithName_String() {
     Client myClient = new Client("Jane Doe");
     assertEquals("Jane Doe", myClient.getName());
-}
+  }
+
+  @Test
+  public void all_emptyAtFirst() {
+    assertEquals(Client.all().size(), 0);
+  }
 
 }
