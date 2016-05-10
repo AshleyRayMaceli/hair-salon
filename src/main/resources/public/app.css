@@ -2,7 +2,7 @@ body {
   font-family: 'Princess Sofia', cursive;
   text-align: center;
   font-size: 24pt;
-  background-image: url();
+  background: url(/pink.jpg);
 }
 
 a {
@@ -30,8 +30,8 @@ p {
 
 .btn {
   width: 200px;
-  height: 100px;
-  font-size: 30pt;
+  height: 80px;
+  font-size: 20pt;
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #CC0066;
@@ -39,12 +39,13 @@ p {
 }
 
 #home {
-  width: 400px;
-  height: 100px;
-  font-size: 30pt;
+  width: 250px;
+  height: 80px;
+  font-size: 20pt;
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #orange;
+  padding-top: 18px;
 }
 
 #name {
