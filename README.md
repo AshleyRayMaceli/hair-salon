@@ -1,3 +1,7 @@
+![Home Page] (screenshot_1.png)
+
+![List of clients] (screenshot_2.png)
+
 # _Hair Salon_
 
 #### _A web app where the user can add stylists and their clients to a database with SQL_
